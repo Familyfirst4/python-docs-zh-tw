@@ -115,7 +115,7 @@ the PSF for inclusion in the documentation.
 .. _GitHub Flow: https://guides.github.com/introduction/flow/
 
 首先，`新增一個 issue <https://github.com/python/python-docs-zh-tw/issues>`_\
-，如：「翻譯 tutorial/introduction.po」，讓大家知道你正在翻譯這個檔案。
+，如：「翻譯 tutorial/introduction.po」，讓大家知道你正在翻譯這個檔案。可以使用 `make todo` 列出尚待翻譯的檔案。
 
 接著在 terminal 裡按照以下步驟：
 
@@ -181,7 +181,7 @@ the PSF for inclusion in the documentation.
 要翻譯哪些東西
 --------------
 
-主要是填入翻譯字串 (*msgid*) 以及更新有標記為 ``#, fuzzy`` 的字串。
+主要是填入翻譯字串 (*msgstr*) 以及更新有標記為 ``#, fuzzy`` 的字串。
 
 其中最簡單的貢獻方式就是更新 *fuzzy entries*，讓曾經翻譯的內容保持與最新版本的文件\
 同步。請參考 `尋找有翻譯過但需校閱的 fuzzy entries`_ 段落。
